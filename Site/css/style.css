@@ -13,12 +13,15 @@ h2.Sous-titre{
 
 p.Annonce{
     color: wheat;
+    font-size: 18px;
 }
 
 p.Devinette{
     color: blueviolet;
+    font-size: 18px;
 }
 
 a.lien-git{
     color: chartreuse;
+    font-size: 18px;
 }
