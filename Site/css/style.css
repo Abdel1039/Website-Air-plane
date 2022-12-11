@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+h1.Titre-principale{
+    color: white;
+    padding-left: 600px;
+}
+
+h2.Sous-titre{
+    color: aquamarine;
+    padding-left: 625px;
+}
+
+p.Annonce{
+    color: wheat;
+}
+
+p.Devinette{
+    color: blueviolet;
+}
+
+a.lien-git{
+    color: chartreuse;
+}
