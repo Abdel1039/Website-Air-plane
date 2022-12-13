@@ -1,0 +1,109 @@
+body.index{
+    background-color: white;
+}
+
+/* tete de page */
+header {
+    background-color:bisque;
+}
+
+/* Contenu */
+div#content{background-color: black;}
+div#content div.Presentation, div.video, div.conclusion{
+    display: inline-block;
+    width: 48%;
+}
+
+div#content h1.C, p.O{
+    text-align: center;
+}
+div#content iframe{
+    margin-left: 80px;
+}
+div.Presentation{
+    background-color: aqua;
+    vertical-align: top;
+    height: 200px;
+}
+
+div.video{
+    background-color: blue;
+}
+
+div.conclusion{
+    background-color: darkmagenta;
+    vertical-align: middle;
+    width: 48%;
+    height:200px ;
+}
+
+/* Navigation */
+nav.menu{ background-color: darkgoldenrod;}
+
+nav.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 12px;
+}
+
+nav.menu ul li.btn-a {
+    font-size: 25px;
+}
+
+nav.menu ul li.btn-a a {
+    color: red;
+    background-color: white;
+    text-decoration: none;
+}
+
+nav.menu ul li.btn-a:hover a {
+    background-color: blueviolet;
+}
+
+nav.menu ul li.github {
+    margin-left: 1000px;
+    font-size: 25px;
+}
+
+nav.menu ul li.github a.gith {
+    color: chartreuse;
+    background-color:goldenrod;
+    text-decoration: none;
+}
+
+nav.menu ul li.github:hover a.gith {
+    background-color: blueviolet;
+}
+
+nav.menu ul li.btn-p {
+    font-size: 25px;
+}
+
+nav.menu ul li.btn-p a {
+    color: red;
+    background-color: white;
+    text-decoration: none;
+}
+
+nav.menu ul li.btn-p:hover a {
+    background-color: blueviolet;
+}
+
+nav.menu ul li.btn-t {
+    font-size: 25px;
+}
+
+nav.menu ul li.btn-t a {
+    color: red;
+    background-color: white;
+    text-decoration: none;
+}
+
+nav.menu ul li.btn-t:hover a {
+    background-color: blueviolet;
+}
+
+/* Footer */
+footer{
+    background-color: crimson;
+}
