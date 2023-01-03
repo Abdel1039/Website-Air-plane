@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/dccb6c8de3.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="website icon" href="image/logo1.png">
+    <title>Air-Plane</title>
+</head>
+<body>
+    <!-- Header -->
+    <section class="Header">
+        <header class="landing-page">
+            <img src="image/logo.png" alt="Logo du site" class="Logo">
+            <div class="trois-barres"><a href="#"><i class="fa-solid fa-bars trois-barre"></i></a></div>
+            <div class="parametre"><a href="#"><i class="fa-solid fa-globe"></i>&ensp;France fr</a></div>
+            <div class="parametre"><a href="#"><i class="fa-solid fa-user"></i>&ensp;Se connecter</a></div>
+            <div class="parametre"><a href="#"><i class="fa-solid fa-user-plus"></i>&ensp;Crée mon compte</a></div>
+        </header>
+        <!-- Naviagation -->
+        <nav class="nav">
+            <li class="btn-nav"><a href="" class="Accueil">ACHETER UN BILLET</a></li>
+            <li class="btn-nav"><a href="redirection/enrigistrement.html" class="enrigstre">ENREGISTREMENT</a></li>
+            <li class="btn-nav"><a href="redirection/mes-reservation.html" class="reserve">MES RESERVATION </a></li>
+            <li class="btn-nav"><a href="redirection/information.html" class="info">INFORMATION</a></li>
+        </nav>
+    </section>
+    <!-- Menu -->
+    <section class="Menu">
+        <!-- Formulaire de recherche -->
+        <form method="post" class="formulaire">
+            <div class="partie">
+                <select name="voyage" id="voyage" class="input select">
+                    <option selected="selected">Aller-retour</option>
+                    <option>Aller simple</option>
+                </select>
+                <input type="text" name="depart" id="depart" class="input" placeholder="Départ à" required>
+                <input type="text" name="arrive" id="arrive" class="input" placeholder="Arrivée à" required>
+            </div>
+            <div class="partie date-voyage">
+                <label for="depart" class="label">Date de départ :</label>
+                <input type="date" name="date" class="input date"  required>
+                <label for="arrive" class="label " >Date de retour :</label>
+                <input type="date" name="retour" class="input date" required>
+            </div>
+           <div class="partie">
+            <select name="adulte" id="Selecte" class="select">
+                <option selected="selected">1 Adulte</option>
+                <option>2 Adultes</option>
+                <option>3 Adultes</option>
+                <option>4 Adultes</option>
+                <option>5 Adultes</option>
+                <option>6 Adultes</option>
+                <option>7 Adultes</option>
+                <option>8 Adultes</option>
+                <option>9 Adultes</option>
+            </select>
+            <select name="enfants" id="Selecte" class="select">
+                <option selected="selected">0 Enfant</option>
+                <option>1 Enfant</option>
+                <option>2 Enfants</option>
+                <option>3 Enfants</option>
+                <option>4 Enfants</option>
+                <option>5 Enfants</option>
+                <option>6 Enfants</option>
+                <option>7 Enfants</option>
+                <option>8 Enfants</option>
+                <option>9 Enfants</option>
+            </select>
+            <select name="cabine" id="cabine" class="select">
+                <option selected="selected">ECONOMY</option>
+                <option>PREMIUM ECONOMY</option>
+                <option>BUSINESS</option>
+                <option>LA PREMIÈRE</option>
+            </select>
+           </div>
+            <input type="submit" name="Recherher" id="rechercher" class="rechercher" value="Rechercher les vols">
+        </form>
+        <!-- Diaporama -->
+        <div class="d1"></div>
+        <div class="conteneur"> </div>
+    </section>
+    <!-- Nouveautés -->
+    <section class="nouveautes">
+        <h2 class="titre">Nouveautés</h2>
+        <h3 class="titre h3">Vols + hôtels</h3>
+        <div class="img">
+            <a href="" class="proposition caraibe"><div class="div"><p class="p vol-hotel">VOL + HÔTEL<p class="p dist">CARAIBS<p class="p prix">dès 1 199€</p></p></p></div></a>
+            <a href="" class="proposition egypte"><div class="div"><p class="p vol-hotel">VOL + HÔTEL<p class="p dist">Égypte<p class="p prix">dès 449€</p></p></p></div></a>
+            <a href="" class="proposition maurice"><div class="div"><p class="p vol-hotel">VOL + HÔTEL<p class="p dist">Maurice<p class="p prix">dès 1 298€</p></p></p></div></a>
+            <a href="" class="proposition ny"><div class="div"><p class="p vol-hotel">VOL + HÔTEL<p class="p dist">New York City<p class="p prix">dès 699€</p></p></p></div></a>
+        </div>
+        <button class="btn-offre">Voir plus d'offre</button>
+    </section>
+</html>

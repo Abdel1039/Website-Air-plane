@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+body{
+    padding: 1px 30px;
+}
+
+/* Header */
+.Logo{
+    width:150px;
+}
+.landing-page{
+    align-items: center;
+}
+.trois-barres{
+    position: absolute;
+    left:1;
+    top: 40px;
+}
+
+.trois-barre{
+    color: black;
+}
+
+.parametre a{
+    color: black;
+    text-decoration: none;
+    font-family: 'PT Serif', serif;
+}
+
+.parametre{
+    margin: 12px;
+    float: right;
+}
+
+/* navigation */
+
+.btn-nav{
+    display: inline-block;
+    margin: 12px;
+    font-size: x-large;
+}
+
+.btn-nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn-nav a:hover{
+    background-color: #E8E8E8;
+}
+
+.reserve::before{
+    content:"";
+    position: absolute;
+    background-color: red;
+    width: 215px;
+    height: 5px;
+    top: 130px;
+}

@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+body{
+    padding: 1px 30px;
+}
+
+/* Header */
+.Logo{
+    width:150px;
+}
+.landing-page{
+    align-items: center;
+}
+.trois-barres{
+    position: absolute;
+    left:1;
+    top: 40px;
+}
+
+.trois-barre{
+    color: black;
+}
+
+.parametre a{
+    color: black;
+    text-decoration: none;
+    font-family: 'PT Serif', serif;
+}
+
+.parametre{
+    margin: 12px;
+    float: right;
+}
+
+/* navigation */
+
+.btn-nav{
+    display: inline-block;
+    margin: 12px;
+    font-size: x-large;
+}
+
+.btn-nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn-nav a:hover{
+    background-color: #E8E8E8;
+}
+
+.Accueil::before{
+    content:"";
+    position: absolute;
+    background-color: red;
+    width: 240px;
+    height: 5px;
+    top: 130px;
+}
+
+/* Diaporama */
+
+
+.d1{
+    width: 1430px;
+    height: 560px;
+    margin: 50px auto;
+    margin-top: 0px;
+    background-color: white;
+    /* background-size: 100%; */
+    background-size: cover;
+    animation: fondu 15s ease-in-out infinite both;
+}
+
+@keyframes fondu{
+    0%{background-image: url(../Image/interieur.jpg);}
+    33.33%{background-image: url(../Image/demon-slayer.jpg);}
+    66.67%{background-image: url(../Image/Tahiti.jpg);}
+    100%{background-image: url(../Image/business-class.png);}
+}
+
+
+/* Formulaire de recherche */
+
+.formulaire{
+    position: absolute;
+    padding: 100px;
+}
+
+
+.label{
+    color: white;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.input{
+    padding: 12px;
+    flex-direction: row ;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.select{
+    padding: 12px;
+    flex-direction: row ;
+    margin: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.rechercher{
+    position: absolute;
+    font-size: 20px;
+    background-color: #D40540;
+    border: #D40540;
+    padding: 12px;
+    color: white;
+    margin-left: 1100px;
+    cursor: pointer;
+}
+
+.date-voyage{
+    margin-left: 18px;
+}
+
+/* Image- Vols + hôtels */
+
+.nouveautes{
+    margin: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img{
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.proposition{
+    margin: 24px;
+    background-size: cover;
+    background-position: center;
+    min-width: 150px;
+    height: 300px;
+    flex: 1;
+}
+
+.caraibe{
+    text-align: center;
+    text-decoration: none;
+    background-image: url(../Image/Caraib.jpg);
+}
+
+.egypte{
+    text-align: center;
+    text-decoration: none;
+    background-image: url(../Image/Egypte.jpg);
+}
+
+.maurice{
+    text-align: center;
+    text-decoration: none;
+    background-image: url(../Image/Maurice.jpg);
+}
+
+.ny{
+    text-align: center;
+    text-decoration: none;
+    background-image: url(../Image/New-York.jpg);
+}
+
+.titre{
+    padding-left: 25px;
+}
+
+.h3::before{
+    content:"";
+    position: absolute;
+    background-color: #E8E5E5;
+    width: 1193px;
+    height: 1px;
+    top: 890px;
+}
+
+.h3{
+    color: #14438B;
+}
+
+.div{
+    margin-top: 190px;
+    margin-left: 150px;
+    width: 100px;
+    background-color: #14438B;
+    opacity: 0.8;
+    color: white;
+}
+
+.dist{
+    font-weight: 700;
+}
+
+.prix{
+    font-weight: 600;
+}
+
+.btn-offre{
+    position: absolute;
+    top: 1250px;
+    left: 650px;
+    width: 200px;
+    height: 40px;
+    background-color: #051039;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+}
