@@ -13,7 +13,12 @@ body{
 
 /* Header */
 .Logo{
-    width:150px;
+    height: 90px;
+    width:200px;
+    background-image: url(../Image/logo.png);
+    background-position: center;
+    background-size:cover;
+    flex:1;
 }
 .landing-page{
     align-items: center;
@@ -28,15 +33,43 @@ body{
     color: black;
 }
 
-.parametre a{
+/* Menu deroulant */
+.menu-link{
     color: black;
     text-decoration: none;
     font-family: 'PT Serif', serif;
+    padding: 20px;
+    display: block;
 }
 
-.parametre{
+.profil{
+    position: absolute;
+    right: 40px;
+    top: 25px;
     margin: 12px;
-    float: right;
+    background: none;
+    border: none;
+    font-size:xx-large;
+    cursor: pointer;
+}
+
+
+.link-menu{
+    position: absolute;
+    right: 40px;
+    top: 75px;
+    display: inline-block;
+}
+
+.link-menu{
+    display: none;
+    background-color: #FFFFFF;
+    min-width: 150px;
+}
+
+.deroulant:hover .link-menu{
+    display: block;
+    transition: 0.5s all;
 }
 
 
@@ -367,8 +400,13 @@ body{
 /* Moyen de paiement */
 
 .img-paiement{
-    height: 40px;
+    height: 45px;
     margin: 23px;
+    width: 70px;
+    background-position: center;
+    background-size:cover;
+    background-size: 100%;
+    display: inline-block;
 }
 
 .paiement{
@@ -376,6 +414,55 @@ body{
     margin-left: 50px;
 }
 
+.visa{
+    background-image: url(../image/Moyen-de-paiement/Visa-logo.jpg);
+    width: 80px ;
+}
+.visa-elec{
+    background-image: url(../image/Moyen-de-paiement/Visa-Electron-logo.jpg);
+}
+.visa-debit{
+    background-image: url(../image/Moyen-de-paiement/Visa-Debit-logo.jpg);
+}
+.american{
+    background-image: url(../image/Moyen-de-paiement/American-Express-logo.jpg);
+}
+.gold{
+    background-image: url(../image/Moyen-de-paiement/Amex-Card-Gold.jpg);
+}
+.diner{
+    background-image: url(../image/Moyen-de-paiement/Diners-Acceptance-Mark.jpg);
+    height: 52px;
+}
+.discover{
+    background-image: url(../image/Moyen-de-paiement/Discover-Acceptance-Mark.jpg);
+    height: 46px;
+}
+.mastercard{
+    background-image: url(../image/Moyen-de-paiement/Mastercard-logo.jpg);
+    height: 55px;
+}
+.mastero{
+    background-image: url(../image/Moyen-de-paiement/Maestro-logo.jpg);
+    height: 55px;
+}
+.jcb{
+    background-image: url(../image/Moyen-de-paiement/JCB-logo.jpg);
+}
+.uatp{
+    background-image: url(../image/Moyen-de-paiement/UATP-logo.png);
+    width: 150px;
+}
+.money{
+    background-image: url(../image/Moyen-de-paiement/money.png);
+    width: 220px;
+}
+.CB{
+    background-image: url(../image/Moyen-de-paiement/CB.jpg);
+}
+.paypal{
+    background-image: url(../image/Moyen-de-paiement/Payapl.jpg);
+}
 /* Footer */
 
 footer{
