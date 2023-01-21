@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles-new.css">
     <title>Création du compte</title>
 </head>
 <body>
+    <div class="form">
     <?php
     include 'BD.php';   
     global $db;?>
+    <p class="titre">Créer votre compte</p>
     <form method="post">
-        <input type="text" name="Npseudo" id="Npseudo" placeholder="Votre pseudo" required><br/>
-        <input type="text" name="Nemail" id="Nemail" placeholder="Votre e-mail" required><br/>
-        <input type="password" name="Npassword" id="Npassword" required placeholder="Crée votre mot de passe"><br/>
-        <input type="password" name="NCpassword" id="NCpassword" required placeholder="Confirmer votre mot de passe"><br/>
-        <input type="submit" name="Inscrit" id="Inscrit" value="Inscrit">
+        <input type="text" name="Npseudo" id="Npseudo" placeholder="Votre pseudo" required class="input"><br/>
+        <input type="text" name="Nemail" id="Nemail" placeholder="Votre e-mail" required class="input"><br/>
+        <input type="password" name="Npassword" id="Npassword" required placeholder="Crée votre mot de passe (8 characters minimum)" minlength="8" class="input"><br/>
+        <input type="password" name="NCpassword" id="NCpassword" required placeholder="Confirmer votre mot de passe" class="input"><br/>
+        <input type="submit" name="Inscrit" id="Inscrit" value="Inscrit" class='btn-inscrit'>
     </form>
 
     <?php
@@ -42,19 +45,20 @@
                         'password' => $hashpass
                     ]);
 
-                    echo "Le compte a été crée avec succe";
-                    ?><a href="login.php">Se connecter</a>
+                    echo '<p class="OK">Le compte a été crée avec succès</p>';
+                    ?><a class="link" href="login.php">Se connecter</a>
                     <?php
                 }else{
-                    echo "L'email " .'"' . $Nemail . '"' . " a déja été créée";
+                    echo "<p class='error'>L'email " .'"' . $Nemail . '"' . " a déja été créée</p>";
                 }
             } else {
-                echo "Les mots de passe ne sont pas les mêmes ";}
+                echo '<p class="error">Les mots de passe ne sont pas les mêmes</p>';}
         } else {
-            echo 'Veuillez remplir tous les champs';}
+            echo '<p class="error">Veuillez remplir tous les champs</p>';}
 
          }
 
     ?>
+    </div>
 </body>
 </html>
