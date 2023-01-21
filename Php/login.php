@@ -21,7 +21,6 @@
         <input type="submit" name="Connexion" id="Connexion" value="Connexion" class="btn-connect">
     </form>
     <a href="../index.html" class="A">Revenir à l'accueil</a>
-
     <?php
     if (isset($_POST["Connexion"])){
         extract($_POST);
