@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=PT+Serif:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tangsa:wght@500&display=swap');
+body{
+    background-color: #102340;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+    margin-left: 35%;
+    background-color: #F8F9F9;
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.titre{
+    font-family: 'Lato', sans-serif;
+    font-size: xx-large;
+    color: #051039;
+    padding: 12px;
+}
+
+.info{
+    font-family: 'Noto Sans Tangsa', sans-serif;
+    font-size: 20px;
+}
+
+.deco{
+    padding: 6px;
+    background-color: #D40504;
+    border:2px solid #D40540;
+    color: white;
+    font-weight: 800;
+    width:365px;
+    text-align: center;
+    filter: drop-shadow(0 3mm 2mm #EDEDED);
+    cursor: pointer;
+}
+
+.deco:hover{
+    border:2px solid #D40540;
+    filter: drop-shadow(0 0 0.30rem gray);
+    transition: 0.5s all;
+} 
+
+.echo{
+    font-family: 'Noto Sans Tangsa', sans-serif;
+    color:black;
+    font-weight: bold;
+}
+
+.link{
+    color: #051039;
+}

@@ -159,6 +159,7 @@ body{
     color: white;
     margin-left: 1100px;
     cursor: pointer;
+    width: 200px;
 }
 
 .date-voyage{
