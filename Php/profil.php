@@ -17,6 +17,7 @@
         <p class="info">Votre pseudo : <?= $_SESSION["pseudo"]; ?></p>
         <p class="info">Votre email : <?=$_SESSION['email']?></p>
         <form method="post"><input type="submit" name="deconnexion" id="deconnexion" value="Déconnexion" class="deco"></form>
+        <a href="../index.html" class="A">Revenir à l'accueil</a>
         <?php
         if(isset($_POST['deconnexion'])){
             session_destroy();
@@ -27,6 +28,7 @@
     }else{
         echo "<p class='echo'>Veuillez vous connectez</p>";
         ?><a class="link" href="login.php">Connexion</a>
+        <a href="../index.html" class="A">Revenir à l'accueil</a>
         <?php
     }
 

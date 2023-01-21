@@ -20,6 +20,7 @@
         <input type="password" name="Lpassword" id="Lpassword" placeholder="Votre mots de passe" required class="input"><br/>
         <input type="submit" name="Connexion" id="Connexion" value="Connexion" class="btn-connect">
     </form>
+    <a href="../index.html" class="A">Revenir à l'accueil</a>
 
     <?php
     if (isset($_POST["Connexion"])){

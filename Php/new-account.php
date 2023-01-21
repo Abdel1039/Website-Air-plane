@@ -20,6 +20,7 @@
         <input type="password" name="NCpassword" id="NCpassword" required placeholder="Confirmer votre mot de passe" class="input"><br/>
         <input type="submit" name="Inscrit" id="Inscrit" value="Inscrit" class='btn-inscrit'>
     </form>
+    <a href="../index.html" class="A">Revenir à l'accueil</a>
 
     <?php
         if (isset($_POST['Inscrit'])){
