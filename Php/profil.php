@@ -10,6 +10,7 @@
 </head>
 <body>
     <div class="from">
+        
     <?php
     if(isset($_SESSION['pseudo']) && isset($_SESSION['email'])){
         ?>
