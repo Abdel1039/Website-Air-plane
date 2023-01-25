@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
 
 body{
@@ -19,15 +19,7 @@ body{
 .landing-page{
     align-items: center;
 }
-.trois-barres{
-    position: absolute;
-    left:1;
-    top: 40px;
-}
 
-.trois-barre{
-    color: black;
-}
 
 /* Menu deroulant */
 .menu-link{
@@ -92,4 +84,17 @@ body{
     width: 215px;
     height: 5px;
     top: 130px;
+}
+
+.nothing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.H{
+    color: #CCCCCC;
+    font-size: large;
+    font-family:  'Roboto Condensed', sans-serif;;
 }

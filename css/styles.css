@@ -23,15 +23,7 @@ body{
 .landing-page{
     align-items: center;
 }
-.trois-barres{
-    position: absolute;
-    left:1;
-    top: 40px;
-}
 
-.trois-barre{
-    color: black;
-}
 
 /* Menu deroulant */
 .menu-link{
