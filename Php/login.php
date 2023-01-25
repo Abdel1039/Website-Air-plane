@@ -9,7 +9,7 @@
     <title>Connexion</title>
 </head>
 <body>
-    <?= include("BD.php");
+    <?php include("BD.php");
     global $db;
     ?>
 
