@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+body{
+    background-color: #F8F9F9;
+    padding: 1px 30px;
+    margin: 0 auto;
+}
+
+/* Header */
+.Logo{
+    height: 90px;
+    width:200px;
+    background-image: url(../Image/logo.png);
+    background-position: center;
+    background-size:cover;
+    flex:1;
+}
+.landing-page{
+    align-items: center;
+}
+
+/* Menu deroulant */
+.menu-link{
+    color: black;
+    text-decoration: none;
+    font-family: 'PT Serif', serif;
+    padding: 20px;
+    display: block;
+}
+
+.profil{
+    position: absolute;
+    right: 40px;
+    top: 25px;
+    margin: 12px;
+    background: none;
+    border: none;
+    font-size:xx-large;
+    cursor: pointer;
+}
+
+
+.link-menu{
+    position: absolute;
+    right: 40px;
+    top: 75px;
+    display: inline-block;
+}
+
+.link-menu{
+    display: none;
+    background-color: #FFFFFF;
+    min-width: 150px;
+}
+
+.deroulant:hover .link-menu{
+    display: block;
+    transition: 0.5s all;
+}
+
+/* navigation */
+
+.btn-nav{
+    display: inline-block;
+    margin: 12px;
+    font-size: x-large;
+}
+
+.btn-nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn-nav a:hover{
+    background-color: #E8E8E8;
+}
+
+.Accueil::before{
+    content:"";
+    position: absolute;
+    background-color: red;
+    width: 240px;
+    height: 5px;
+    top: 130px;
+}
+
+.nothing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.H{
+    color: #CCCCCC;
+    font-size: x-large;
+    font-family:  'Roboto Condensed', sans-serif;;
+}
