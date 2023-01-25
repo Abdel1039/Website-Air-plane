@@ -9,8 +9,8 @@
     <title>Votre profil</title>
 </head>
 <body>
-    <div class="from">
-        
+    <div class="form">
+
     <?php
     if(isset($_SESSION['pseudo']) && isset($_SESSION['email'])){
         ?>
